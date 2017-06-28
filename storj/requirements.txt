@@ -1,0 +1,42 @@
+anyconfig==0.9.1
+argh==0.26.2
+bitcoin==1.1.42
+cffi==1.9.1
+click==6.7
+contextlib2==0.5.4
+eth-testrpc==1.1.1
+ethereum==1.6.1
+ethereum-abi-utils==0.4.0
+ethereum-utils==0.2.0
+json-rpc==1.10.3
+jsonschema==2.6.0
+pathtools==0.1.2
+pbkdf2==1.3
+populus==1.6.8
+py==1.4.33
+py-geth==1.7.1
+py-solc==1.0.1
+pycparser==2.17
+pycryptodome==3.4.5
+pyethash==0.1.27
+pylru==1.0.9
+pysha3==1.0.2
+pytest==3.0.7
+PyYAML==3.12
+repoze.lru==0.6
+requests==2.13.0
+ruamel.yaml==0.14.5
+rlp==0.4.6
+scrypt==0.8.0
+secp256k1==0.13.2
+toposort==1.5
+watchdog==0.8.3
+web3==3.7.2
+Werkzeug==0.12.1
+Sphinx==1.5.3
+
+# Helper tools for issuance and testing
+-e git+https://github.com/TokenMarketNet/ico.git@76ba2cfd9e664edbb12e82df595558986b18e127#egg=ico
+
+# Verify on EtherScan
+splinter==0.7.5
