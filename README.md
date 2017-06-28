@@ -5,7 +5,7 @@ Ethereum smart contracts that have been used during successful ICOs
 
 Original GitHub repo: https://github.com/bancorprotocol/contracts
 
-## ixe.ec
+## iex.ec
 
 Description of crowdsale: https://medium.com/iex-ec/how-to-join-iex-ecs-crowdsale-198926abe458
 
