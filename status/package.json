@@ -1,0 +1,32 @@
+{
+    "name": "status-network-token",
+    "version": "0.1.0",
+    "description": "Status network token",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/status-im/status-network-token.git"
+    },
+    "license": "GPL-3.0",
+    "bugs": {
+        "url": "https://github.com/status-im/status-network-token/issues"
+    },
+    "homepage": "https://github.com/status-im/status-network-token",
+    "devDependencies": {
+        "async": "^2.4.0",
+        "bignumber.js": "^4.0.2",
+        "ethereumjs-testrpc": "^3.0.5",
+        "random-bytes": "^1.0.0",
+        "truffle": "3.2.4",
+        "truffle-hdwallet-provider": "0.0.3",
+        "web3": "^0.18.4"
+    },
+    "dependencies": {},
+    "main": "truffle.js",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Status Research & Development"
+}

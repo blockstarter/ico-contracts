@@ -1,0 +1,6 @@
+[BASIC]
+good-names=i,j,k,n,ex,Run,_
+
+[FORMAT]
+max-line-length = 99
+disable=locally-disabled,locally-enabled
