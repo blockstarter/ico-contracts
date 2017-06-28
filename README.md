@@ -1,11 +1,15 @@
 # ico-contracts
 Ethereum smart contracts that have been used during successful ICOs
 
+## Bancor
+
+Original GitHub repo: https://github.com/bancorprotocol/contracts
+
 ## ixe.ec
 
 Description of crowdsale: https://medium.com/iex-ec/how-to-join-iex-ecs-crowdsale-198926abe458
 
-Contract: https://etherscan.io/address/0xec33fB8D7c781F6FeaF2Dd46D521D4F292320200
+Deployed contract: https://etherscan.io/address/0xec33fB8D7c781F6FeaF2Dd46D521D4F292320200
 
 ### Rules
 
@@ -22,8 +26,14 @@ April 19 to 29 : 20% BONUS
 
 ## status.im
 
-Contract: https://etherscan.io/address/0x55d34b686aa8C04921397c5807DB9ECEdba00a4c
+Deployed contract: https://etherscan.io/address/0x55d34b686aa8C04921397c5807DB9ECEdba00a4c
 
-## Blockswap
+## Matchpool
+
+Original GitHub repo: https://github.com/Matchpool/contracts
+
+## Blockswap (MobileGO?)
 
 Blockswap by Incent https://blockswap.incentloyalty.com/
+
+Looks like a modification of this contract was used by MobileGO.
