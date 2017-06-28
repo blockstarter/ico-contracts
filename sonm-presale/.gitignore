@@ -1,0 +1,19 @@
+
+# truffle
+/build
+
+
+# ethpm
+/installed_contracts
+secrets.json
+
+# npm
+node_modules
+/web-ui/build
+
+# testing
+/coverage
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

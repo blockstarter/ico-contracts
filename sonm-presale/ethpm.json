@@ -1,0 +1,14 @@
+{
+  "package_name": "sonm.io-token",
+  "version": "0.0.3",
+  "description": "SONM presale token contracts",
+  "authors": [
+    "Max Taldykin <max@formalmethods.ru>",
+    "Sergey Ponomarev <jackatwork@yandex.ru>"
+  ],
+  "keywords": [ "token", "ico" ],
+  "dependencies": {
+    "multisig-wallet": "^0.0.1"
+  },
+  "license": "MIT"
+}

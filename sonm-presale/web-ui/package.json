@@ -1,0 +1,24 @@
+{
+  "name": "token",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "http://sonm-io.github.io/presale-token",
+  "devDependencies": {
+    "react-scripts": "0.9.0"
+  },
+  "dependencies": {
+    "gh-pages": "^0.12.0",
+    "material-ui": "^0.17.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-tap-event-plugin": "^2.0.1",
+    "truffle-contract": "^1.1.10"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "deploy": "npm run build && gh-pages -d build"
+  }
+}
