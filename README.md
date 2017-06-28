@@ -31,14 +31,38 @@ Token: https://etherscan.io/token/StatusNetwork
 
 ## Storj
 
+Original GitHub repo: https://github.com/Storj/storj-contracts
 
+Token contract: https://etherscan.io/address/0xb64ef51c888972c908cfacf59b47c1afbc0ab8ac
 
 ## Matchpool
 
 Original GitHub repo: https://github.com/Matchpool/contracts
+
+## SONM
+
+Original GitHub repo: https://github.com/sonm-io/presale-token
+
+## Aragon
+
+Token contract: https://etherscan.io/address/0x960b236A07cf122663c4303350609A66A7B288C0
+
+Multisig contract: https://etherscan.io/address/0xcafe1a77e84698c83ca8931f54a755176ef75f2c
 
 ## Blockswap (MobileGO?)
 
 Blockswap by Incent https://blockswap.incentloyalty.com/
 
 Looks like a modification of this contract was used by MobileGO.
+
+## Interesting repos
+
+### Open Zeppelin
+
+OpenZeppelin, a framework to build secure smart contracts on Ethereum 
+
+https://github.com/OpenZeppelin/zeppelin-solidity
+
+### Contract examples by TokenMarket.net
+
+https://github.com/TokenMarketNet/ico
