@@ -27,6 +27,11 @@ April 19 to 29 : 20% BONUS
 ## status.im
 
 Deployed contract: https://etherscan.io/address/0x55d34b686aa8C04921397c5807DB9ECEdba00a4c
+Token: https://etherscan.io/token/StatusNetwork
+
+## Storj
+
+
 
 ## Matchpool
 
