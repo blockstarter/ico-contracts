@@ -1,0 +1,12 @@
+{
+  "name": "matchpool-crowdfunding-contracts",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Matchpool Crowdfunding smart contracts",
+  "main": "contracts",
+  "directories": {
+    "test": "test",
+    "migrations": "migrations"
+  },
+  "license": "GPL3"
+}
