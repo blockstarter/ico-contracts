@@ -11,7 +11,7 @@ Contributors in BTC and ETH will be eligible for RLC tokens, the native tokens f
  
 1 BTC = 5000 RLC
 
-1ETH = 205 RLC*
+1ETH = 205 RLC (Price will be updated at the moment of the crowdsale according to the ETHBTC rate)
 
 Minimum objective amount: 2,000 BTC
 
@@ -22,8 +22,6 @@ Max RLC total supply: 87,000,000 RLC
 Max RLC sold by crowdsale: 60,000,000 RLC
   
 April 19 to 29 : 20% BONUS
-
-(Price will be updated at the moment of the crowdsale according to the ETHBTC rate)
 
 ## status.im
 
