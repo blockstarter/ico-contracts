@@ -69,23 +69,39 @@ Original GitHub repo: https://github.com/bokkypoobah/Blockswap
 
 Looks like a modification of this contract was used by MobileGO.
 
+## Gnosis
+
+https://github.com/gnosis/gnosis-contracts/
+
+## Golem
+
+https://github.com/golemfactory/golem-crowdfunding
+
+## Edgeless
+
+https://github.com/miohtama/Edgeless-Smart-Contracts
+
+## Lunyr
+
+https://github.com/Lunyr/crowdsale-contracts
+
 ## Interesting repos
 
-### Open Zeppelin
+### Framework by Open Zeppelin
 
 OpenZeppelin, a framework to build secure smart contracts on Ethereum 
 
 https://github.com/OpenZeppelin/zeppelin-solidity
+
+### Framework by TokenMarket.net
+
+https://github.com/TokenMarketNet/ico
 
 ### MiniMe token
 
 ERC20 compatible clonable token.
 
 https://github.com/Giveth/minime
-
-### Contract examples by TokenMarket.net
-
-https://github.com/TokenMarketNet/ico
 
 ### Analysis tool for smart contracts
 
@@ -96,3 +112,8 @@ https://github.com/melonproject/oyente
 Allows multiple parties to agree on transactions before execution.
 
 https://github.com/ConsenSys/MultiSigWallet
+
+### Other links
+
+https://github.com/rstormsf/awesome-crowdsales
+
