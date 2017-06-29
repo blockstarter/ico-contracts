@@ -121,3 +121,10 @@ https://github.com/ConsenSys/MultiSigWallet
 
 https://github.com/rstormsf/awesome-crowdsales
 
+## Smart contract audit and security
+
+https://medium.com/zeppelin-blog/basic-attention-token-bat-audit-88bf196df64b
+
+https://medium.com/zeppelin-blog/blockchain-capital-token-audit-68e882d14f0
+
+https://medium.com/zeppelin-blog/onward-with-ethereum-smart-contract-security-97a827e47702
