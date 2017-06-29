@@ -77,6 +77,12 @@ OpenZeppelin, a framework to build secure smart contracts on Ethereum
 
 https://github.com/OpenZeppelin/zeppelin-solidity
 
+### MiniMe token
+
+ERC20 compatible clonable token.
+
+https://github.com/Giveth/minime
+
 ### Contract examples by TokenMarket.net
 
 https://github.com/TokenMarketNet/ico
