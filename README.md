@@ -49,6 +49,8 @@ ICO contracts: Original GitHub repo: https://github.com/sonm-io/ico-contracts
 
 ## Aragon
 
+Original GitHub repo: https://github.com/aragon/aragon-network-token
+
 Token contract: https://etherscan.io/address/0x960b236A07cf122663c4303350609A66A7B288C0
 
 Multisig contract: https://etherscan.io/address/0xcafe1a77e84698c83ca8931f54a755176ef75f2c
