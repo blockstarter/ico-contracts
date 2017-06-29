@@ -1,0 +1,11 @@
+IPCFILE=ipc:./testchain/geth.ipc
+PASSWORD=testtest
+
+TOKENSOL=../contracts/EncryptoTelToken.sol
+TOKENJS=EncryptoTelToken.js
+
+DEPLOYMENTDATA=deploymentData.txt
+
+INCLUDEJS=./include.js
+TEST1OUTPUT=test1output.txt
+TEST1RESULTS=test1results.txt

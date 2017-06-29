@@ -1,0 +1,358 @@
+Welcome to the Geth JavaScript console!
+
+instance: Geth/v1.6.1-stable-021c3c28/darwin-amd64/go1.8.1
+coinbase: 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e
+at block: 0 (Thu, 01 Jan 1970 10:00:00 AEST)
+ datadir: /Users/bok/Projects/Blockswap/test/testchain
+ modules: admin:1.0 debug:1.0 eth:1.0 miner:1.0 net:1.0 personal:1.0 rpc:1.0 txpool:1.0 web3:1.0
+
+> 
+true
+> 
+true
+> 
+> 
+undefined
+> 
+undefined
+> 
+> 
+DATA: tokenABI=[{"constant":true,"inputs":[],"name":"name","outputs":[{"name":"","type":"string"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"_spender","type":"address"},{"name":"_amount","type":"uint256"}],"name":"approve","outputs":[{"name":"success","type":"bool"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"totalSupply","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"_from","type":"address"},{"name":"_to","type":"address"},{"name":"_amount","type":"uint256"}],"name":"transferFrom","outputs":[{"name":"success","type":"bool"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"decimals","outputs":[{"name":"","type":"uint8"}],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"_owner","type":"address"}],"name":"balanceOf","outputs":[{"name":"balance","type":"uint256"}],"payable":false,"type":"function"},{"constant":false,"inputs":[],"name":"acceptOwnership","outputs":[],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"wavesAddress","type":"string"},{"name":"amount","type":"uint256"}],"name":"moveToWaves","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"owner","outputs":[{"name":"","type":"address"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"TOTALSUPPLY","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"symbol","outputs":[{"name":"","type":"string"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"_to","type":"address"},{"name":"_amount","type":"uint256"}],"name":"transfer","outputs":[{"name":"success","type":"bool"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"newOwner","outputs":[{"name":"","type":"address"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"tokenAddress","type":"address"},{"name":"amount","type":"uint256"}],"name":"transferAnyERC20Token","outputs":[{"name":"success","type":"bool"}],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"_owner","type":"address"},{"name":"_spender","type":"address"}],"name":"allowance","outputs":[{"name":"remaining","type":"uint256"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"_newOwner","type":"address"}],"name":"transferOwnership","outputs":[],"payable":false,"type":"function"},{"inputs":[],"payable":false,"type":"constructor"},{"payable":false,"type":"fallback"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_from","type":"address"},{"indexed":false,"name":"wavesAddress","type":"string"},{"indexed":false,"name":"amount","type":"uint256"}],"name":"WavesTransfer","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_from","type":"address"},{"indexed":true,"name":"_to","type":"address"},{"indexed":false,"name":"_value","type":"uint256"}],"name":"Transfer","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_owner","type":"address"},{"indexed":true,"name":"_spender","type":"address"},{"indexed":false,"name":"_value","type":"uint256"}],"name":"Approval","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_from","type":"address"},{"indexed":true,"name":"_to","type":"address"}],"name":"OwnershipTransferred","type":"event"}]
+undefined
+> 
+> 
+undefined
+> 
+RESULT:  # Account                                             EtherBalanceChange                          Token Name
+RESULT:  1 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e        0.000000000000000000            0 Account #0 - Miner
+RESULT:  2 0xa11aae29840fbb5c86e6fd4cf809eba183aef433        0.000000000000000000            0 Account #1 - Token Owner
+RESULT:  3 0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976        0.000000000000000000            0 Account #2
+RESULT:  4 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0        0.000000000000000000            0 Account #3
+RESULT:  5 0xa44a08d3f6933c69212114bb66e2df1813651844        0.000000000000000000            0 Account #4
+RESULT:  6 0xa55a151eb00fded1634d27d1127b4be4627079ea        0.000000000000000000            0 Account #5
+RESULT:  7 0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9        0.000000000000000000            0 Account #6
+undefined
+> 
+RESULT: 
+undefined
+> 
+> 
+> 
+undefined
+> 
+undefined
+> 
+RESULT: Test 1.1 Deploy Token Contract
+undefined
+> 
+undefined
+> 
+{"abi":[{"constant":true,"inputs":[],"name":"name","outputs":[{"name":"","type":"string"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"_spender","type":"address"},{"name":"_amount","type":"uint256"}],"name":"approve","outputs":[{"name":"success","type":"bool"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"totalSupply","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"_from","type":"address"},{"name":"_to","type":"address"},{"name":"_amount","type":"uint256"}],"name":"transferFrom","outputs":[{"name":"success","type":"bool"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"decimals","outputs":[{"name":"","type":"uint8"}],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"_owner","type":"address"}],"name":"balanceOf","outputs":[{"name":"balance","type":"uint256"}],"payable":false,"type":"function"},{"constant":false,"inputs":[],"name":"acceptOwnership","outputs":[],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"wavesAddress","type":"string"},{"name":"amount","type":"uint256"}],"name":"moveToWaves","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"owner","outputs":[{"name":"","type":"address"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"TOTALSUPPLY","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"symbol","outputs":[{"name":"","type":"string"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"_to","type":"address"},{"name":"_amount","type":"uint256"}],"name":"transfer","outputs":[{"name":"success","type":"bool"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"newOwner","outputs":[{"name":"","type":"address"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"tokenAddress","type":"address"},{"name":"amount","type":"uint256"}],"name":"transferAnyERC20Token","outputs":[{"name":"success","type":"bool"}],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"_owner","type":"address"},{"name":"_spender","type":"address"}],"name":"allowance","outputs":[{"name":"remaining","type":"uint256"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"_newOwner","type":"address"}],"name":"transferOwnership","outputs":[],"payable":false,"type":"function"},{"inputs":[],"payable":false,"type":"constructor"},{"payable":false,"type":"fallback"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_from","type":"address"},{"indexed":false,"name":"wavesAddress","type":"string"},{"indexed":false,"name":"amount","type":"uint256"}],"name":"WavesTransfer","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_from","type":"address"},{"indexed":true,"name":"_to","type":"address"},{"indexed":false,"name":"_value","type":"uint256"}],"name":"Transfer","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_owner","type":"address"},{"indexed":true,"name":"_spender","type":"address"},{"indexed":false,"name":"_value","type":"uint256"}],"name":"Approval","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_from","type":"address"},{"indexed":true,"name":"_to","type":"address"}],"name":"OwnershipTransferred","type":"event"}],"eth":{"_requestManager":{"polls":{},"provider":{},"timeout":null},"accounts":["0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e","0xa11aae29840fbb5c86e6fd4cf809eba183aef433","0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976","0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0","0xa44a08d3f6933c69212114bb66e2df1813651844","0xa55a151eb00fded1634d27d1127b4be4627079ea","0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9","0xa77a2b9d4b1c010a22a7c565dc418cef683dbcec","0xa88a05d2b88283ce84c8325760b72a64591279a2","0xa99a0ae3354c06b1459fd441a32a3f71005d7da0","0xaaaa9de1e6c564446ebca0fd102d8bd92093c756","0xabba43e7594e3b76afb157989e93c6621497fd4b","0xacca534c9f62ab495bd986e002ddf0f054caae4f","0xadda9b762a00ff12711113bfdc36958b73d7f915","0xaeea63b5479b50f79583ec49dacdcf86ddeff392","0xaffa4d3a80add8ce4018540e056dacb649589394"],"blockNumber":0,"coinbase":"0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e","compile":{},"gasPrice":"20000000000","hashrate":0,"mining":true,"pendingTransactions":[],"protocolVersion":"0x3f","syncing":false}}
+undefined
+> 
+undefined
+> 
+undefined
+> 
+... 
+...... 
+......... 
+............ 
+............ 
+............ 
+............ 
+............ 
+............ 
+............ 
+............ 
+......... 
+...... 
+... 
+undefined
+> 
+... 
+undefined
+> 
+DATA: tokenAddress=0x90d8927407c79c4a28ee879b821c76fc9bcc2688
+RESULT: tokenAddress=0x90d8927407c79c4a28ee879b821c76fc9bcc2688 gas=4000000 gasUsed=824983 costETH=0.01649966 costUSD=2.098756752 @ ETH/USD=127.2 gasPrice=20000000000 block=2 txId=0x7fc6acacee898ae87f94b5dc414621e234c478d5af9077dcf083ea14d5b15f8a
+RESULT:  # Account                                             EtherBalanceChange                          Token Name
+RESULT:  1 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e       15.016499660000000000           0.00000000 Account #0 - Miner
+RESULT:  2 0xa11aae29840fbb5c86e6fd4cf809eba183aef433       -0.016499660000000000    54364795.00000000 Account #1 - Token Owner
+RESULT:  3 0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976        0.000000000000000000           0.00000000 Account #2
+RESULT:  4 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0        0.000000000000000000           0.00000000 Account #3
+RESULT:  5 0xa44a08d3f6933c69212114bb66e2df1813651844        0.000000000000000000           0.00000000 Account #4
+RESULT:  6 0xa55a151eb00fded1634d27d1127b4be4627079ea        0.000000000000000000           0.00000000 Account #5
+RESULT:  7 0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9        0.000000000000000000           0.00000000 Account #6
+RESULT:  8 0x90d8927407c79c4a28ee879b821c76fc9bcc2688        0.000000000000000000           0.00000000 TOKEN
+undefined
+> 
+RESULT: PASS Test 1.1 Deploy Token Contract
+1
+> 
+RESULT: token.symbol=ETT
+RESULT: token.name=EncyptoTel Token
+RESULT: token.decimals=8
+undefined
+> 
+RESULT: token.totalSupply=54364795
+RESULT: token.owner=0xa11aae29840fbb5c86e6fd4cf809eba183aef433
+RESULT: token.newOwner=0x0000000000000000000000000000000000000000
+undefined
+> 
+RESULT: 
+undefined
+> 
+{"_eth":{"_requestManager":{"polls":{},"provider":{},"timeout":null},"accounts":["0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e","0xa11aae29840fbb5c86e6fd4cf809eba183aef433","0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976","0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0","0xa44a08d3f6933c69212114bb66e2df1813651844","0xa55a151eb00fded1634d27d1127b4be4627079ea","0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9","0xa77a2b9d4b1c010a22a7c565dc418cef683dbcec","0xa88a05d2b88283ce84c8325760b72a64591279a2","0xa99a0ae3354c06b1459fd441a32a3f71005d7da0","0xaaaa9de1e6c564446ebca0fd102d8bd92093c756","0xabba43e7594e3b76afb157989e93c6621497fd4b","0xacca534c9f62ab495bd986e002ddf0f054caae4f","0xadda9b762a00ff12711113bfdc36958b73d7f915","0xaeea63b5479b50f79583ec49dacdcf86ddeff392","0xaffa4d3a80add8ce4018540e056dacb649589394"],"blockNumber":3,"coinbase":"0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e","compile":{},"gasPrice":"20000000000","hashrate":5435,"mining":true,"pendingTransactions":[],"protocolVersion":"0x3f","syncing":false},"abi":[{"constant":true,"inputs":[],"name":"name","outputs":[{"name":"","type":"string"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"_spender","type":"address"},{"name":"_amount","type":"uint256"}],"name":"approve","outputs":[{"name":"success","type":"bool"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"totalSupply","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"_from","type":"address"},{"name":"_to","type":"address"},{"name":"_amount","type":"uint256"}],"name":"transferFrom","outputs":[{"name":"success","type":"bool"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"decimals","outputs":[{"name":"","type":"uint8"}],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"_owner","type":"address"}],"name":"balanceOf","outputs":[{"name":"balance","type":"uint256"}],"payable":false,"type":"function"},{"constant":false,"inputs":[],"name":"acceptOwnership","outputs":[],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"wavesAddress","type":"string"},{"name":"amount","type":"uint256"}],"name":"moveToWaves","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"owner","outputs":[{"name":"","type":"address"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"TOTALSUPPLY","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"symbol","outputs":[{"name":"","type":"string"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"_to","type":"address"},{"name":"_amount","type":"uint256"}],"name":"transfer","outputs":[{"name":"success","type":"bool"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"newOwner","outputs":[{"name":"","type":"address"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"tokenAddress","type":"address"},{"name":"amount","type":"uint256"}],"name":"transferAnyERC20Token","outputs":[{"name":"success","type":"bool"}],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"_owner","type":"address"},{"name":"_spender","type":"address"}],"name":"allowance","outputs":[{"name":"remaining","type":"uint256"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"_newOwner","type":"address"}],"name":"transferOwnership","outputs":[],"payable":false,"type":"function"},{"inputs":[],"payable":false,"type":"constructor"},{"payable":false,"type":"fallback"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_from","type":"address"},{"indexed":false,"name":"wavesAddress","type":"string"},{"indexed":false,"name":"amount","type":"uint256"}],"name":"WavesTransfer","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_from","type":"address"},{"indexed":true,"name":"_to","type":"address"},{"indexed":false,"name":"_value","type":"uint256"}],"name":"Transfer","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_owner","type":"address"},{"indexed":true,"name":"_spender","type":"address"},{"indexed":false,"name":"_value","type":"uint256"}],"name":"Approval","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_from","type":"address"},{"indexed":true,"name":"_to","type":"address"}],"name":"OwnershipTransferred","type":"event"}],"address":"0x90d8927407c79c4a28ee879b821c76fc9bcc2688","transactionHash":"0x7fc6acacee898ae87f94b5dc414621e234c478d5af9077dcf083ea14d5b15f8a"}
+undefined
+> 
+> 
+> 
+undefined
+> 
+undefined
+> 
+RESULT: Test 1.2 Attempt to send ethers to the token contract - expecting to fail
+undefined
+> 
+undefined
+> 
+... 
+undefined
+> 
+RESULT:  # Account                                             EtherBalanceChange                          Token Name
+RESULT:  1 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e       25.024499660000000000           0.00000000 Account #0 - Miner
+RESULT:  2 0xa11aae29840fbb5c86e6fd4cf809eba183aef433       -0.016499660000000000    54364795.00000000 Account #1 - Token Owner
+RESULT:  3 0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976       -0.008000000000000000           0.00000000 Account #2
+RESULT:  4 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0        0.000000000000000000           0.00000000 Account #3
+RESULT:  5 0xa44a08d3f6933c69212114bb66e2df1813651844        0.000000000000000000           0.00000000 Account #4
+RESULT:  6 0xa55a151eb00fded1634d27d1127b4be4627079ea        0.000000000000000000           0.00000000 Account #5
+RESULT:  7 0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9        0.000000000000000000           0.00000000 Account #6
+RESULT:  8 0x90d8927407c79c4a28ee879b821c76fc9bcc2688        0.000000000000000000           0.00000000 TOKEN
+undefined
+> 
+RESULT: PASS Test 1.2 Attempt to send ethers to the token contract - expecting to fail
+1
+> 
+RESULT: token.totalSupply=54364795
+RESULT: token.owner=0xa11aae29840fbb5c86e6fd4cf809eba183aef433
+RESULT: token.newOwner=0x0000000000000000000000000000000000000000
+undefined
+> 
+RESULT: 
+undefined
+> 
+> 
+> 
+undefined
+> 
+undefined
+> 
+RESULT: Test 1.3 Token owner transfer 10,000 tokens to account2 and account3
+undefined
+> 
+undefined
+> 
+undefined
+> 
+... 
+undefined
+> 
+RESULT:  # Account                                             EtherBalanceChange                          Token Name
+RESULT:  1 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e       40.026543100000000000           0.00000000 Account #0 - Miner
+RESULT:  2 0xa11aae29840fbb5c86e6fd4cf809eba183aef433       -0.018543100000000000    54344795.00000000 Account #1 - Token Owner
+RESULT:  3 0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976       -0.008000000000000000       10000.00000000 Account #2
+RESULT:  4 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0        0.000000000000000000       10000.00000000 Account #3
+RESULT:  5 0xa44a08d3f6933c69212114bb66e2df1813651844        0.000000000000000000           0.00000000 Account #4
+RESULT:  6 0xa55a151eb00fded1634d27d1127b4be4627079ea        0.000000000000000000           0.00000000 Account #5
+RESULT:  7 0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9        0.000000000000000000           0.00000000 Account #6
+RESULT:  8 0x90d8927407c79c4a28ee879b821c76fc9bcc2688        0.000000000000000000           0.00000000 TOKEN
+undefined
+> 
+RESULT: PASS Test 1.3 Token owner transfer 10,000 tokens to account2 and account3 - account2
+1
+> 
+RESULT: PASS Test 1.3 Token owner transfer 10,000 tokens to account2 and account3 - account3
+1
+> 
+RESULT: token.totalSupply=54364795
+RESULT: token.owner=0xa11aae29840fbb5c86e6fd4cf809eba183aef433
+RESULT: token.newOwner=0x0000000000000000000000000000000000000000
+RESULT: Transfer Event 0: from=0xa11aae29840fbb5c86e6fd4cf809eba183aef433 to=0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976 value=10000 block=7
+RESULT: Transfer Event 1: from=0xa11aae29840fbb5c86e6fd4cf809eba183aef433 to=0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0 value=10000 block=7
+undefined
+> 
+RESULT: 
+undefined
+> 
+> 
+> 
+undefined
+> 
+undefined
+> 
+RESULT: Test 1.4 Account2 transfers 50,000 tokens to account4 - expecting to fail without errors
+undefined
+> 
+undefined
+> 
+... 
+undefined
+> 
+RESULT:  # Account                                             EtherBalanceChange                          Token Name
+RESULT:  1 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e       50.027019940000000000           0.00000000 Account #0 - Miner
+RESULT:  2 0xa11aae29840fbb5c86e6fd4cf809eba183aef433       -0.018543100000000000    54344795.00000000 Account #1 - Token Owner
+RESULT:  3 0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976       -0.008476840000000000       10000.00000000 Account #2
+RESULT:  4 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0        0.000000000000000000       10000.00000000 Account #3
+RESULT:  5 0xa44a08d3f6933c69212114bb66e2df1813651844        0.000000000000000000           0.00000000 Account #4
+RESULT:  6 0xa55a151eb00fded1634d27d1127b4be4627079ea        0.000000000000000000           0.00000000 Account #5
+RESULT:  7 0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9        0.000000000000000000           0.00000000 Account #6
+RESULT:  8 0x90d8927407c79c4a28ee879b821c76fc9bcc2688        0.000000000000000000           0.00000000 TOKEN
+undefined
+> 
+RESULT: PASS Test 1.4 Account2 transfers 50,000 tokens to account4 - expecting to fail without errors
+1
+> 
+RESULT: token.totalSupply=54364795
+RESULT: token.owner=0xa11aae29840fbb5c86e6fd4cf809eba183aef433
+RESULT: token.newOwner=0x0000000000000000000000000000000000000000
+undefined
+> 
+RESULT: 
+undefined
+> 
+> 
+> 
+undefined
+> 
+undefined
+> 
+RESULT: Test 1.5 Account2 approves transfer of 2,000 tokens to account3 and account3 transfers
+undefined
+> 
+undefined
+> 
+... 
+undefined
+> 
+undefined
+> 
+... 
+undefined
+> 
+RESULT:  # Account                                             EtherBalanceChange                          Token Name
+RESULT:  1 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e       70.028482780000000000           0.00000000 Account #0 - Miner
+RESULT:  2 0xa11aae29840fbb5c86e6fd4cf809eba183aef433       -0.018543100000000000    54344795.00000000 Account #1 - Token Owner
+RESULT:  3 0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976       -0.009383640000000000        8000.00000000 Account #2
+RESULT:  4 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0       -0.000556040000000000       12000.00000000 Account #3
+RESULT:  5 0xa44a08d3f6933c69212114bb66e2df1813651844        0.000000000000000000           0.00000000 Account #4
+RESULT:  6 0xa55a151eb00fded1634d27d1127b4be4627079ea        0.000000000000000000           0.00000000 Account #5
+RESULT:  7 0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9        0.000000000000000000           0.00000000 Account #6
+RESULT:  8 0x90d8927407c79c4a28ee879b821c76fc9bcc2688        0.000000000000000000           0.00000000 TOKEN
+undefined
+> 
+RESULT: PASS Test 1.5 Account2 approves transfer of 2,000 tokens to account3 and account3 transfers - account2 approves
+1
+> 
+RESULT: PASS Test 1.5 Account2 approves transfer of 2,000 tokens to account3 and account3 transfers - account3 transferFrom
+1
+> 
+RESULT: token.totalSupply=54364795
+RESULT: token.owner=0xa11aae29840fbb5c86e6fd4cf809eba183aef433
+RESULT: token.newOwner=0x0000000000000000000000000000000000000000
+RESULT: Approval Event 0: owner=0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976 spender=0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0 2000 block=12
+RESULT: Transfer Event 0: from=0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976 to=0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0 value=2000 block=14
+undefined
+> 
+RESULT: 
+undefined
+> 
+> 
+> 
+undefined
+> 
+undefined
+> 
+RESULT: Test 1.6 Change Ownership
+undefined
+> 
+undefined
+> 
+... 
+undefined
+> 
+undefined
+> 
+... 
+undefined
+> 
+RESULT: tx1_6_1 gas=100000 gasUsed=43405 costETH=0.0008681 costUSD=0.11042232 @ ETH/USD=127.2 gasPrice=20000000000 block=16 txId=0x70a0b53505c77671dd1266c5655721099eeae7565d652722f4f5d9f37b6dbc49
+undefined
+> 
+RESULT: tx1_6_2 gas=100000 gasUsed=28497 costETH=0.00056994 costUSD=0.072496368 @ ETH/USD=127.2 gasPrice=20000000000 block=18 txId=0xf5622930ec91af48befb11d768330553afde352c942fd198ebc933e39b3f30f8
+undefined
+> 
+RESULT:  # Account                                             EtherBalanceChange                          Token Name
+RESULT:  1 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e       90.029350880000000000           0.00000000 Account #0 - Miner
+RESULT:  2 0xa11aae29840fbb5c86e6fd4cf809eba183aef433       -0.019411200000000000    54344795.00000000 Account #1 - Token Owner
+RESULT:  3 0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976       -0.009383640000000000        8000.00000000 Account #2
+RESULT:  4 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0       -0.000556040000000000       12000.00000000 Account #3
+RESULT:  5 0xa44a08d3f6933c69212114bb66e2df1813651844        0.000000000000000000           0.00000000 Account #4
+RESULT:  6 0xa55a151eb00fded1634d27d1127b4be4627079ea        0.000000000000000000           0.00000000 Account #5
+RESULT:  7 0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9        0.000000000000000000           0.00000000 Account #6
+RESULT:  8 0x90d8927407c79c4a28ee879b821c76fc9bcc2688        0.000000000000000000           0.00000000 TOKEN
+undefined
+> 
+RESULT: PASS Test 1.6 Change Ownership - Change owner
+1
+> 
+RESULT: PASS Test 1.6 Change Ownership - Accept ownership
+1
+> 
+RESULT: token.totalSupply=54364795
+RESULT: token.owner=0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e
+RESULT: token.newOwner=0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e
+RESULT: OwnershipTransferred Event 0: from=0xa11aae29840fbb5c86e6fd4cf809eba183aef433 to=0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e 18
+undefined
+> 
+RESULT: 
+undefined
+> 
+> 
+> 
+undefined
+> 
+undefined
+> 
+RESULT: Test 1.6 Account2 blockswaps to Waves account 3PBcRZBV38UBWQXmmnXNkVf7VZLBQgGZ9DM
+undefined
+> 
+undefined
+> 
+... 
+undefined
+> 
+RESULT:  # Account                                             EtherBalanceChange                          Token Name
+RESULT:  1 0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e      100.030462640000000000        2000.00000000 Account #0 - Miner
+RESULT:  2 0xa11aae29840fbb5c86e6fd4cf809eba183aef433       -0.019411200000000000    54344795.00000000 Account #1 - Token Owner
+RESULT:  3 0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976       -0.010495400000000000        6000.00000000 Account #2
+RESULT:  4 0xa33a6c312d9ad0e0f2e95541beed0cc081621fd0       -0.000556040000000000       12000.00000000 Account #3
+RESULT:  5 0xa44a08d3f6933c69212114bb66e2df1813651844        0.000000000000000000           0.00000000 Account #4
+RESULT:  6 0xa55a151eb00fded1634d27d1127b4be4627079ea        0.000000000000000000           0.00000000 Account #5
+RESULT:  7 0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9        0.000000000000000000           0.00000000 Account #6
+RESULT:  8 0x90d8927407c79c4a28ee879b821c76fc9bcc2688        0.000000000000000000           0.00000000 TOKEN
+undefined
+> 
+RESULT: PASS Test 1.6 Account2 blockswaps to Waves account 3PBcRZBV38UBWQXmmnXNkVf7VZLBQgGZ9DM
+1
+> 
+RESULT: token.totalSupply=54364795
+RESULT: token.owner=0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e
+RESULT: token.newOwner=0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e
+RESULT: WavesTransfer Event 0: from=0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976 wavesAddress=3PBcRZBV38UBWQXmmnXNkVf7VZLBQgGZ9DM amount=2000 block=20
+RESULT: Transfer Event 0: from=0xa22ab8a9d641ce77e06d98b7d7065d324d3d6976 to=0xa00af22d07c87d96eeeb0ed583f8f6ac7812827e value=2000 block=20
+undefined
+> 
+RESULT: 
+undefined
+> 
+> 
