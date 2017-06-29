@@ -6,13 +6,17 @@ Ethereum smart contracts that have been used during successful ICOs
 
 Original GitHub repo: https://github.com/bancorprotocol/contracts
 
+## BAT
+
+GitHub repo: https://github.com/brave-intl/basic-attention-token-crowdsale
+
 ## iex.ec
 
 Description of crowdsale: https://medium.com/iex-ec/how-to-join-iex-ecs-crowdsale-198926abe458
 
 Deployed contract: https://etherscan.io/address/0xec33fB8D7c781F6FeaF2Dd46D521D4F292320200
 
-### Rules
+**Rules:**
 
 Contributors in BTC and ETH will be eligible for RLC tokens, the native tokens for the iEx.ec cloud network
  
