@@ -1,6 +1,6 @@
 # ico-contracts
 
-Ethereum smart contracts that have been used during successful ICOs curated by [Blockstarter](http://blockstarter.co)
+Ethereum smart contracts that have been used during successful ICOs. Curated by [Blockstarter](http://blockstarter.co)
 
 ## Bancor
 
