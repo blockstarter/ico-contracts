@@ -59,6 +59,10 @@ Token contract: https://etherscan.io/address/0x960b236A07cf122663c4303350609A66A
 
 Multisig contract: https://etherscan.io/address/0xcafe1a77e84698c83ca8931f54a755176ef75f2c
 
+## BlockChain Capital
+
+https://github.com/BCAPtoken/BCAPToken
+
 ## Mysterium Network
 
 GitHub repo: https://github.com/MysteriumNetwork/contracts
