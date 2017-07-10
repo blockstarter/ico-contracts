@@ -93,6 +93,10 @@ https://github.com/miohtama/Edgeless-Smart-Contracts
 
 https://github.com/Lunyr/crowdsale-contracts
 
+## SingularDTV
+
+https://github.com/ConsenSys/singulardtv-contracts
+
 ## Interesting repos
 
 ### Framework by Open Zeppelin
